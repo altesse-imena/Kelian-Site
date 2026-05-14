@@ -23,8 +23,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
 
   const emails = [
     "contact@scaledivision.info",
-    "kewengue1@gmail.com",
-    "kewenguepro@outlook.fr"
+    "kewengue1@gmail.com"
   ];
 
   const copyToClipboard = async (email) => {
