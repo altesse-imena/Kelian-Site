@@ -39,7 +39,7 @@ const Hero = ({ openPopup }) => {
       initial="hidden"
       animate="visible"
     >
-      <motion.div className="hero-monogram" variants={itemVariants} style={{ marginBottom: '20px' }}>
+      <motion.div className="hero-monogram" variants={itemVariants} style={{ marginBottom: '7px' }}>
         <motion.img 
           src="/images/SD-LOGO.png" 
           alt="Scale Division" 
