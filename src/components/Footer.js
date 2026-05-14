@@ -11,7 +11,7 @@ const Footer = () => {
       viewport={{ once: true }}
     >
       <motion.img 
-        src="/images/SD-LOGO.PNG" 
+        src="/images/SD-LOGO.png" 
         alt="Scale Division" 
         className="footer-logo"
         style={{ height: '43px' }}

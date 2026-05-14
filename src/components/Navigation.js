@@ -10,7 +10,7 @@ const Navigation = ({ language, setLanguage }) => {
       transition={{ duration: 0.6 }}
     >
       <motion.img 
-        src="/images/SD-LOGO.PNG" 
+        src="/images/SD-LOGO.png" 
         alt="Scale Division" 
         className="nav-logo"
         style={{ height: '50px' }}
