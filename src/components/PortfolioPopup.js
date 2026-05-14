@@ -53,8 +53,8 @@ const PortfolioPopup = ({ isOpen, onClose }) => {
             <X size={20} />
           </motion.button>
 
-          <div className="popup-title" data-fr>Portfolio · Projets</div>
-          <div className="popup-title" data-en>Portfolio · Projects</div>
+          <div className="popup-title" data-fr>Trusted By:</div>
+          <div className="popup-title" data-en>Trusted By:</div>
 
           {portfolioItems.map((item, index) => (
             <motion.div
