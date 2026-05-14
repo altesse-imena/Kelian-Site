@@ -39,7 +39,7 @@ const Hero = ({ openPopup }) => {
       initial="hidden"
       animate="visible"
     >
-      <motion.div className="hero-monogram" variants={itemVariants} style={{ marginBottom: '7px' }}>
+      <motion.div className="hero-monogram" variants={itemVariants} style={{ marginBottom: '0px' }}>
         <motion.img 
           src="/images/SD-LOGO.png" 
           alt="Scale Division" 
@@ -50,8 +50,9 @@ const Hero = ({ openPopup }) => {
         />
       </motion.div>
 
-      <motion.div className="hero-subtitle" variants={itemVariants}>
-        <span className="gold">Turn your knowledge into income.</span>
+      <motion.div className="hero-subtitle" variants={itemVariants} style={{ marginTop: '-10px' }}>
+        <span className="gold" data-fr>Transformez votre savoir en revenus.</span>
+        <span className="gold" data-en>Turn your knowledge into income.</span>
       </motion.div>
 
       <motion.p className="hero-eyebrow" variants={itemVariants}>
