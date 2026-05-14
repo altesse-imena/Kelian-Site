@@ -493,7 +493,7 @@ nav {
   /* Center the last item if it's alone in its row */
   .domains-grid .dom:nth-child(odd):last-child {
     grid-column: 1 / -1;
-    max-width: 200px;
+    width: calc(50% - 6px);
     margin: 0 auto;
   }
 }
@@ -506,7 +506,7 @@ nav {
   
   .domains-grid .dom:nth-child(odd):last-child {
     grid-column: 1 / -1;
-    max-width: 180px;
+    width: calc(50% - 4px);
     margin: 0 auto;
   }
 }
