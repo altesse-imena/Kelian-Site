@@ -53,7 +53,7 @@ const PortfolioPopup = ({ isOpen, onClose }) => {
             <X size={20} />
           </motion.button>
 
-          <div className="popup-title" data-fr>Trusted By:</div>
+          <div className="popup-title" data-fr>Ils nous font confiance :</div>
           <div className="popup-title" data-en>Trusted By:</div>
 
           {portfolioItems.map((item, index) => (
