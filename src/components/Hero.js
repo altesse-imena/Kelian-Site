@@ -50,6 +50,10 @@ const Hero = ({ openPopup }) => {
         />
       </motion.div>
 
+      <motion.div className="hero-subtitle" variants={itemVariants}>
+        <span className="gold">Turn your knowledge into income.</span>
+      </motion.div>
+
       <motion.p className="hero-eyebrow" variants={itemVariants}>
         Scale Division · Info Product
       </motion.p>
@@ -58,10 +62,6 @@ const Hero = ({ openPopup }) => {
         <span data-fr>Vous maîtrisez un domaine ?<br/><span className="gold">Scale Division le monétise.</span></span>
         <span data-en>You master a field?<br/><span className="gold">Scale Division monetizes it.</span></span>
       </motion.h1>
-
-      <motion.div className="hero-subtitle" variants={itemVariants}>
-        <span className="gold">Turn your knowledge into income.</span>
-      </motion.div>
 
       <motion.p className="hero-tagline" variants={itemVariants}>
         <span data-fr>Transformez votre savoir-faire en un programme d'éducation digital.</span>
