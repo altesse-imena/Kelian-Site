@@ -59,6 +59,10 @@ const Hero = ({ openPopup }) => {
         <span data-en>You master a field?<br/><span className="gold">Scale Division monetizes it.</span></span>
       </motion.h1>
 
+      <motion.div className="hero-subtitle" variants={itemVariants}>
+        <span className="gold">Turn your knowledge into income.</span>
+      </motion.div>
+
       <motion.p className="hero-tagline" variants={itemVariants}>
         <span data-fr>Transformez votre savoir-faire en un programme d'éducation digital.</span>
         <span data-en>Transform your expertise into a digital education program.</span>

@@ -131,6 +131,18 @@ nav {
   animation: fadeUp 0.8s ease 0.4s forwards;
 }
 
+.hero-subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(13px, 2.25vw, 29px);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0.015em;
+  margin-bottom: 16px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.45s forwards;
+  text-align: center;
+}
+
 .gold {
   color: var(--gold);
 }
