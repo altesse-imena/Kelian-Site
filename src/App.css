@@ -907,23 +907,40 @@ footer {
   display: none !important;
 }
 
+/* Force mobile responsiveness */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+  * {
+    max-width: 100vw;
+  }
+  
   nav {
     padding: 14px 20px;
   }
   
   .wrap {
     padding: 60px 20px;
+    width: 100%;
   }
   
   .forqui-inner, .contact-section {
     padding: 60px 20px;
+    width: 100%;
   }
   
   .intro-grid, .cards-row {
     grid-template-columns: 1fr;
     gap: 32px;
+    width: 100%;
   }
   
   footer {
@@ -931,10 +948,13 @@ footer {
     flex-direction: column;
     gap: 10px;
     text-align: center;
+    width: 100%;
   }
   
   .hero {
     padding: 100px 20px 60px;
+    width: 100%;
+    min-width: unset;
   }
   
   .nav-logo {
@@ -947,11 +967,37 @@ footer {
   
   .popup-box {
     padding: 28px 20px;
+    width: calc(100vw - 40px);
+    max-width: calc(100vw - 40px);
   }
   
   .portfolio-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    width: 100%;
+  }
+  
+  /* Fix any potential wide elements */
+  .hero-title, .hero-tagline, .hero-sub {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .hero {
+    padding: 80px 15px 40px;
+  }
+  
+  .wrap, .forqui-inner, .contact-section {
+    padding: 40px 15px;
+  }
+  
+  .popup-box {
+    padding: 20px 15px;
+    width: calc(100vw - 30px);
+    max-width: calc(100vw - 30px);
   }
 }
